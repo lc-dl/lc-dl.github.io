@@ -1,2 +1,1 @@
-# lc-dl.github.io
-LC-DL Site
+Welcome to LC-DL (aka LiveContainer Downloader)
