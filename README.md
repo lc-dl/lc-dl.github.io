@@ -3,7 +3,7 @@ Welcome to LC-DL (aka LiveContainer Downloader)
 ## What is LC-DL?
 LC-DL is an app downloader made specifically for LiveContainer. It is built entirely in iOS Shortcuts and is very easy to use
 
-#### Links
+### Links
 **View the Github repo**  
 **Download the latest version**  
 **View the LC-DL App Repository**  
