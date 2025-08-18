@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LC-DL</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      text-align: center;
+      background-color: white;
+      color: black;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: white;
+      }
+    }
+
+    .main {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+
+    .tagline {
+      font-style: italic;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+
+    .description {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      max-width: 300px;
+      margin-bottom: 2rem;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .buttons a img {
+      width: 180px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      transition: transform 0.2s;
+    }
+
+    .buttons a img:hover {
+      transform: scale(1.05);
+    }
+
+    .alt-download {
+      font-size: 0.9rem;
+    }
+
+    .alt-download a {
+      text-decoration: underline;
+      color: inherit;
+    }
+
+    .scroll-indicator {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      opacity: 0.7;
+      animation: bounce 1.5s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(5px); }
+    }
+
+    .extra-content {
+      padding: 2rem 1rem;
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .extra-content h2 {
+      margin-top: 2rem;
+      font-size: 1.3rem;
+    }
+
+    .extra-content p {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-top: 0.5rem;
+    }
+
+    footer {
+      margin: 2rem 0;
+      font-size: 0.8rem;
+      opacity: 0.7;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <!-- Logo -->
+    <img src="assets/logo.png" alt="LC-DL Logo" width="300">
+
+    <!-- Tagline -->
+    <div class="tagline">(aka LiveContainer Downloader)</div>
+
+    <!-- Description -->
+    <div class="description">An app downloader for LiveContainer built in iOS Shortcuts</div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <a href="https://www.github.com/sinceohsix/lcdl-repo"><img src="assets/github.png" alt="View the LC-DL Github repository"></a>
+      <a href="EXAMPLE.COM"><img src="assets/download.png" alt="Download LC-DL"></a>
+    </div>
+
+    <!-- Alternate download link -->
+    <div class="alt-download">
+      or… <a href="https://github.com/sinceohsix/lcdl-repo/releases/latest/download/LC-DL.shortcut">download the .shortcut</a>
+    </div>
+
+    <!-- Scroll prompt -->
+    <div class="scroll-indicator">
+      Scroll for more information <br> ↓
+    </div>
+  </div>
+
+  <!-- Extra content below fold -->
+  <div class="extra-content">
+    <h2>What is LC-DL?</h2>
+    <p>
+      LC-DL is a downloader for LiveContainer apps, built entirely in iOS Shortcuts.
+      You can use it to fetch and install apps directly into LiveContainer with ease.
+    </p>
+
+    <h2>How to Use</h2>
+    <p>
+      1. Install the shortcut using the buttons above.<br>
+      2. Open it in the Shortcuts app.<br>
+      3. Follow the on-screen instructions.
+    </p>
+
+    <h2>FAQ</h2>
+    <p>
+      <strong>Q:</strong> Do I need to jailbreak?<br>
+      <strong>A:</strong> No, LC-DL works with Shortcuts only.
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <sub>Made with ❤️ by Eli and Kaylley</sub>
+  </footer>
+</body>
+</html>
