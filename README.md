@@ -1,5 +1,5 @@
 <div align="center">
-<h1>The LC-DL Website</h1>
+<img src="assets/logo.png" width="300"><br>
 <p>
   Click <a href="https://lc-dl.github.io">here</a> to visit the website.
 </p>
